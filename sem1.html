@@ -1,6 +1,11 @@
 <html>
 <head>
 <link type="text/css" href="style.css" rel="stylesheet">
+<script>
+   function openFile(){
+     open("sem1.pdf");
+   }
+</script>
 </head>
 <body>
 <center><div class="divmain">
@@ -8,9 +13,9 @@
 <img src="pdflogo.png">
 </div>
 <h2>BCA-I Year SEMESTER-I Result Oct-Nov 2019</h2>
-<button class="buttonview"><a href="sem1.pdf">View Result</a></button>
+<button class="buttonview"><a href="#" onclick="openFile();">View Result</a></button>
 
-<button class="button_download"><a href="sem1.pdf" download="true">Download</a></button>
+<button class="button_download"><a href="sem1.pdf" download="BCA-I_Sem-I_Result">Download</a></button>
 </div>
 <center><p id="developer">Copyright@2021 Designed By : Akshay Patil...</p></center>
 </body>
